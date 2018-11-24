@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7135D3E219E9B4600A15C6F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7135D3D219E9B4600A15C6F /* Question.swift */; };
+		C7135D40219E9B5E00A15C6F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7135D3F219E9B5E00A15C6F /* QuestionBank.swift */; };
+		C7135D47219ED91A00A15C6F /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C7135D44219ED91A00A15C6F /* ProgressHUD.bundle */; };
+		C7135D48219ED91A00A15C6F /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7135D46219ED91A00A15C6F /* ProgressHUD.m */; };
 		C72DC59E2196084900FAF47C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DC59D2196084900FAF47C /* AppDelegate.swift */; };
 		C72DC5A02196084900FAF47C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DC59F2196084900FAF47C /* ViewController.swift */; };
 		C72DC5A32196084900FAF47C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72DC5A12196084900FAF47C /* Main.storyboard */; };
-		C72DC5A52196084A00FAF47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72DC5A42196084A00FAF47C /* Assets.xcassets */; };
 		C72DC5A82196084A00FAF47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72DC5A62196084A00FAF47C /* LaunchScreen.storyboard */; };
+		C72DC5B021960FF900FAF47C /* pagequestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DC5AF21960FF900FAF47C /* pagequestion.swift */; };
+		C72DC5B22196109D00FAF47C /* pagerandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DC5B12196109D00FAF47C /* pagerandom.swift */; };
+		C72DC5B42196115700FAF47C /* pagereward.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72DC5B32196115700FAF47C /* pagereward.swift */; };
+		C7E2C40221A000A900451DD4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E2C40121A000A900451DD4 /* Media.xcassets */; };
+		C7E2C40821A01BD000451DD4 /* right.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C7E2C40421A01BD000451DD4 /* right.WAV */; };
+		C7E2C40921A01BD000451DD4 /* reward.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C7E2C40521A01BD000451DD4 /* reward.WAV */; };
+		C7E2C40A21A01BD000451DD4 /* wrong.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C7E2C40621A01BD000451DD4 /* wrong.WAV */; };
+		C7E2C40B21A01BD000451DD4 /* coin.WAV in Resources */ = {isa = PBXBuildFile; fileRef = C7E2C40721A01BD000451DD4 /* coin.WAV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7135D3D219E9B4600A15C6F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C7135D3F219E9B5E00A15C6F /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		C7135D43219ED91900A15C6F /* POKE MASTER-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POKE MASTER-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7135D44219ED91A00A15C6F /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		C7135D45219ED91A00A15C6F /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		C7135D46219ED91A00A15C6F /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		C72DC59A2196084900FAF47C /* POKE MASTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POKE MASTER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72DC59D2196084900FAF47C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C72DC59F2196084900FAF47C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C72DC5A22196084900FAF47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C72DC5A42196084A00FAF47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C72DC5A72196084A00FAF47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C72DC5A92196084A00FAF47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72DC5AF21960FF900FAF47C /* pagequestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagequestion.swift; sourceTree = "<group>"; };
+		C72DC5B12196109D00FAF47C /* pagerandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagerandom.swift; sourceTree = "<group>"; };
+		C72DC5B32196115700FAF47C /* pagereward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagereward.swift; sourceTree = "<group>"; };
+		C7E2C40121A000A900451DD4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C7E2C40421A01BD000451DD4 /* right.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.WAV; sourceTree = "<group>"; };
+		C7E2C40521A01BD000451DD4 /* reward.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reward.WAV; sourceTree = "<group>"; };
+		C7E2C40621A01BD000451DD4 /* wrong.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.WAV; sourceTree = "<group>"; };
+		C7E2C40721A01BD000451DD4 /* coin.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.WAV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7135D3C219E9B1000A15C6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7135D3D219E9B4600A15C6F /* Question.swift */,
+				C7135D3F219E9B5E00A15C6F /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C72DC5912196084900FAF47C = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +89,32 @@
 			children = (
 				C72DC59D2196084900FAF47C /* AppDelegate.swift */,
 				C72DC59F2196084900FAF47C /* ViewController.swift */,
+				C72DC5AF21960FF900FAF47C /* pagequestion.swift */,
+				C72DC5B12196109D00FAF47C /* pagerandom.swift */,
+				C72DC5B32196115700FAF47C /* pagereward.swift */,
 				C72DC5A12196084900FAF47C /* Main.storyboard */,
-				C72DC5A42196084A00FAF47C /* Assets.xcassets */,
+				C7E2C40121A000A900451DD4 /* Media.xcassets */,
+				C7E2C40321A0196D00451DD4 /* Sound */,
+				C7E2C40721A01BD000451DD4 /* coin.WAV */,
+				C7E2C40521A01BD000451DD4 /* reward.WAV */,
+				C7E2C40421A01BD000451DD4 /* right.WAV */,
+				C7E2C40621A01BD000451DD4 /* wrong.WAV */,
+				C7135D3C219E9B1000A15C6F /* Model */,
 				C72DC5A62196084A00FAF47C /* LaunchScreen.storyboard */,
 				C72DC5A92196084A00FAF47C /* Info.plist */,
+				C7135D44219ED91A00A15C6F /* ProgressHUD.bundle */,
+				C7135D45219ED91A00A15C6F /* ProgressHUD.h */,
+				C7135D46219ED91A00A15C6F /* ProgressHUD.m */,
+				C7135D43219ED91900A15C6F /* POKE MASTER-Bridging-Header.h */,
 			);
 			path = "POKE MASTER";
+			sourceTree = "<group>";
+		};
+		C7E2C40321A0196D00451DD4 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					C72DC5992196084900FAF47C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,9 +176,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E2C40A21A01BD000451DD4 /* wrong.WAV in Resources */,
+				C7135D47219ED91A00A15C6F /* ProgressHUD.bundle in Resources */,
 				C72DC5A82196084A00FAF47C /* LaunchScreen.storyboard in Resources */,
-				C72DC5A52196084A00FAF47C /* Assets.xcassets in Resources */,
+				C7E2C40221A000A900451DD4 /* Media.xcassets in Resources */,
 				C72DC5A32196084900FAF47C /* Main.storyboard in Resources */,
+				C7E2C40B21A01BD000451DD4 /* coin.WAV in Resources */,
+				C7E2C40821A01BD000451DD4 /* right.WAV in Resources */,
+				C7E2C40921A01BD000451DD4 /* reward.WAV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72DC5B021960FF900FAF47C /* pagequestion.swift in Sources */,
+				C72DC5B42196115700FAF47C /* pagereward.swift in Sources */,
+				C72DC5B22196109D00FAF47C /* pagerandom.swift in Sources */,
+				C7135D3E219E9B4600A15C6F /* Question.swift in Sources */,
 				C72DC5A02196084900FAF47C /* ViewController.swift in Sources */,
 				C72DC59E2196084900FAF47C /* AppDelegate.swift in Sources */,
+				C7135D48219ED91A00A15C6F /* ProgressHUD.m in Sources */,
+				C7135D40219E9B5E00A15C6F /* QuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VS6RCC82B;
 				INFOPLIST_FILE = "POKE MASTER/Info.plist";
@@ -291,8 +357,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.prasert.POKE-MASTER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POKE MASTER/POKE MASTER-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VS6RCC82B;
 				INFOPLIST_FILE = "POKE MASTER/Info.plist";
@@ -309,8 +378,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.prasert.POKE-MASTER";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POKE MASTER/POKE MASTER-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
